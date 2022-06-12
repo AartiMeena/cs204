@@ -1,0 +1,39 @@
+For this assignment, you are required to sort an array of natural
+numbers but the sorting criteria is not its value but the sum of its
+digits - numbers with lower sum of digits should come before numbers
+with higher sum of digits. If two numbers have the same sum, then
+the numerically lower number should come first.
+
+
+The input to your program will be 2 lines -
+
+1) The first line will contain an integer 'n', terminated by a
+newline. This 'n' denotes the number of elements to be sorted.
+
+2) The second line will contain 'n' natural numbers separated by a
+single space and ending in a newline. These are the numbers to be
+sorted.
+
+
+The output of your program will be a permutation of the numbers
+given separated by a space and terminating in a new line that
+represent their sorted order as per the given criterion.
+
+
+For instance, if the input is the following -
+
+4
+2 1 3 4
+
+the output should be
+
+1 2 3 4
+
+On the other hand, if the input is
+
+5
+100 90 1 10 500
+
+the output should be
+
+1 10 100 500 90

@@ -1,0 +1,39 @@
+Note : No clarifications will be provided during the session. Use
+your discretion to resolve any issue you seem to face.
+
+
+Given a sequence of natural numbers, you are required to construct
+a Red-Black tree with those numbers. Then, print that permutation
+of the given numbers such that if one is to construct a simple
+binary search tree with that permutation, the resulting tree will
+be identical to the above Red-Black tree.
+
+
+You are free to use the code you have written to construct such a
+tree from a sequence of integers, but the code for the following
+problems should not be reused from anywhere.
+
+
+The input to your program will be 2 lines -
+
+1) The first line will contain an integer 'n', terminated by a
+newline. This 'n' denotes the number of elements to be inserted
+into the Red-Black tree.
+
+2) The second line will contain 'n' natural numbers separated by a
+single space and ending in a newline. The numbers are to be inserted
+in the tree.
+
+
+The output of your program will be a line containing a permutation
+of the numbers in the second line of the input.
+
+
+For instance, if the input is the following,
+
+4
+1 2 3 4
+
+the output should be
+
+2 1 3 4
